@@ -24,6 +24,9 @@
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cc-sec2.png" alt="foto" class="foto">
     </div>
   </section>
+  <section class="gallery">
+    
+  </section>
 </main>
 
 <?php get_footer(); ?>
