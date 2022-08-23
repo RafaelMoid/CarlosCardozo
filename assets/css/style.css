@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 15, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+a, p, h1, h2, h3, h4, h5, h6, li, input, select, textarea, span {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* line 19, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+a, p, h5, h6, li, span {
+  font-size: 1rem;
+}
+
+/* line 23, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+h1 {
+  font-size: 3rem;
+}
+
+/* line 27, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+h2 {
+  font-size: 2.5rem;
+}
+
+/* line 31, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+h3 {
+  font-size: 2rem;
+}
+
+/* line 35, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+h4 {
+  font-size: 1.5rem;
+}
+
+/* line 39, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+.btn-hover:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+/* line 3, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+header.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #fd5057;
+  height: 35rem;
+}
+
+/* line 9, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+header.header div.header-img {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 15, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+header.header div.header-img img.logo {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  height: 8rem;
+}
+
+/* line 22, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+header.header div.header-img img.foto {
+  height: 100%;
+  max-height: 35rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 31, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+header.header div.header-txt {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 38, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+header.header div.header-txt img {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  height: 35rem;
+}
+
+/*# sourceMappingURL=style.css.map */
