@@ -59,37 +59,42 @@ table {
   border-spacing: 0;
 }
 
-/* line 15, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
-a, p, h1, h2, h3, h4, h5, h6, li, input, select, textarea, span {
-  font-family: 'Titillium Web', sans-serif;
+@font-face {
+  font-family: 'Baloo';
+  src: url("BalooBhaijaan2-Bold.ttf") format(truetype), url("BalooBhaijaan2-ExtraBold.ttf") format(truetype), url("BalooBhaijaan2-Medium.ttf") format(truetype), url("BalooBhaijaan2-Regular.ttf") format(truetype) url("BalooBhaijaan2-SemiBold.ttf") format(truetype), url("BalooBhaijaan2-VariableFont_wght.ttf") format(truetype);
 }
 
-/* line 19, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+/* line 26, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+a, p, h1, h2, h3, h4, h5, h6, li, input, select, textarea, span {
+  font-family: 'Baloo', sans-serif;
+}
+
+/* line 30, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
 a, p, h5, h6, li, span {
   font-size: 1rem;
 }
 
-/* line 23, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+/* line 34, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
 h1 {
   font-size: 3rem;
 }
 
-/* line 27, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+/* line 38, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
 h2 {
   font-size: 2.5rem;
 }
 
-/* line 31, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+/* line 42, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
 h3 {
   font-size: 2rem;
 }
 
-/* line 35, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+/* line 46, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
 h4 {
   font-size: 1.5rem;
 }
 
-/* line 39, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+/* line 50, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
 .btn-hover:hover {
   opacity: 0.9;
   cursor: pointer;

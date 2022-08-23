@@ -8,12 +8,23 @@ $cinza4: #4a4a4a;
 $salmao: #ee5754;
 $branco: #ffffff;
 
+@font-face {
+    font-family: 'Baloo';
+    src: 
+    url('BalooBhaijaan2-Bold.ttf') format(truetype), 
+    url('BalooBhaijaan2-ExtraBold.ttf') format(truetype),
+    url('BalooBhaijaan2-Medium.ttf') format(truetype),
+    url('BalooBhaijaan2-Regular.ttf') format(truetype)
+    url('BalooBhaijaan2-SemiBold.ttf') format(truetype),
+    url('BalooBhaijaan2-VariableFont_wght.ttf') format(truetype);
+}
+
 
 
 
 //Fonts Config
 a, p, h1, h2, h3, h4, h5, h6, li,  input, select, textarea, span{
-   font-family: 'Titillium Web', sans-serif;
+   font-family: 'Baloo', sans-serif;
 }
 
 a, p, h5, h6, li , span{
