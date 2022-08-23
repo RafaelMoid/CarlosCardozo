@@ -4,7 +4,7 @@ header.header {
   display: flex;
   flex-direction: row;
   background-color: $vermelho;
-  height: 35rem;
+  height: 38rem;
   justify-content: space-between;
 
   div.header-img {
@@ -20,9 +20,9 @@ header.header {
       height: 8rem;
     }
 
-    img.foto {
+    img.foto1 {
       height: 100%;
-      max-height: 35rem;
+      max-height: 38rem;
       position: absolute;
       top: 0;
       left: 0;
@@ -43,7 +43,8 @@ header.header {
       z-index: 0;
       top: 0;
       right: 0;
-      height: 35rem;
+      height: 38rem;
+      max-height: 38rem;
     }
 
     h1 {
@@ -97,7 +98,7 @@ header.header {
       flex-direction: column;
       text-decoration: none;
       position: absolute;
-      top: 22rem;
+      top: 24rem;
       right: 1.5rem;
       height: 8rem;
       

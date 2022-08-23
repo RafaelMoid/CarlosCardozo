@@ -1,0 +1,52 @@
+main.inicio {
+  section.main {
+    height: 40rem;
+    background-color: $cinza;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    div.about-us-txt {
+      width: 50%;
+
+      h1.title-about-us {
+        margin: 6rem 0 2rem 3rem;
+        font-weight: bold;
+        color: $branco;
+      }
+
+      p {
+        color: $cinza3;
+        font-size: 1.15rem;
+        margin: 0 0 2rem 3rem;
+        text-align: justify;
+        text-justify: inter-word;
+        line-height: 1.5rem;
+
+        strong {
+          font-weight: bold;
+          color: $cinza4;
+        }
+
+        b {
+          font-weight: 600;
+          color: $vermelho;
+        }
+      }
+    }
+
+    div.about-us-img {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      img.foto {
+        height: 100%;
+        max-height: 38rem;
+        margin: 2rem 1rem 0 2rem;
+      }
+
+    }
+
+  }
+}

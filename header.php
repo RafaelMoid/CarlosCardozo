@@ -25,7 +25,7 @@
 	<header class="header">
 		<div class="header-img">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cc-logo.png" alt="logo" class="logo">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cc-foto.png" alt="foto" class="foto">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cc-foto.png" alt="foto1" class="foto1">
 		</div>
 		<div class="header-txt">
 			<img class="bg-header" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cc-trans-destaque.png" alt="">
