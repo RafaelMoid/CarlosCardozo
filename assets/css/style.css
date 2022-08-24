@@ -273,11 +273,11 @@ main.inicio section.main div.about-us-txt h1.title-about-us {
 /* line 18, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
 main.inicio section.main div.about-us-txt p {
   color: #626262;
-  font-size: 1.15rem;
+  font-size: 1.4vw;
   margin: 0 0 2rem 3rem;
   text-align: justify;
   text-justify: inter-word;
-  line-height: 1.5rem;
+  line-height: 1.8vw;
 }
 
 /* line 26, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
@@ -304,6 +304,169 @@ main.inicio section.main div.about-us-img img.foto {
   height: 100%;
   max-height: 38rem;
   margin: 2rem 1rem 0 2rem;
+}
+
+/* line 53, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery {
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* line 61, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery div.album {
+  width: 40%;
+  margin: 6rem auto;
+}
+
+/* line 65, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery div.album h2 {
+  font-size: 1.4vw;
+  color: #626262;
+  margin: 0 0 0.5rem 0;
+  font-weight: bold;
+}
+
+/* line 72, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery div.album h1 {
+  font-size: 2vw;
+  color: #fd5057;
+  margin: 0 0 2rem 0;
+  font-weight: bold;
+}
+
+/* line 80, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery div.album div.player-wrapper img {
+  width: 30%;
+}
+
+/* line 86, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery div.gallery {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 6rem auto;
+  width: 40%;
+}
+
+/* line 93, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery div.gallery h2 {
+  font-size: 1.4vw;
+  color: #626262;
+  margin: 0 0 0.5rem 0;
+  font-weight: bold;
+}
+
+/* line 100, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery div.gallery h1 {
+  font-size: 2vw;
+  color: #fd5057;
+  margin: 0 0 2rem 0;
+  font-weight: bold;
+}
+
+/* line 107, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery div.gallery div.gallery-repeater {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* line 112, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery div.gallery div.gallery-repeater img {
+  width: 32%;
+  margin: 2px;
+}
+
+/* line 119, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery div.btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 123, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.gallery div.btn-wrapper button.full-album {
+  position: absolute;
+  padding: 1rem;
+  width: 15%;
+  font-weight: bold;
+  font-size: 0.9vw;
+  background-color: transparent;
+  color: #626262;
+  border: #626262 solid;
+  border-radius: 36px;
+  margin-top: 2rem;
+}
+
+/* line 138, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.yt-videos {
+  background-color: #626262;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* line 146, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.yt-videos div.yt-content {
+  display: flex;
+  width: 90%;
+}
+
+/* line 150, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.yt-videos div.yt-content div.yt-title {
+  display: flex;
+  flex-direction: column;
+  margin: 6rem 0 0 2rem;
+}
+
+/* line 155, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.yt-videos div.yt-content div.yt-title h2 {
+  font-size: 1.4vw;
+  color: #ffffff;
+  margin: 0 0 0.5rem 0;
+  font-weight: bold;
+}
+
+/* line 162, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.yt-videos div.yt-content div.yt-title h1 {
+  font-size: 2vw;
+  color: #fd5057;
+  margin: 0 0 2rem 0;
+  font-weight: bold;
+}
+
+/* line 172, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.social {
+  width: 100%;
+  background-color: #4a4a4a;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 178, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.social ul.social-content {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* line 187, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.social ul.social-content a li {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 194, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+main.inicio section.social ul.social-content a:hover {
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=style.css.map */

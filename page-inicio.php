@@ -9,14 +9,14 @@
       <h1 class="title-about-us">ABOUT US</h1>
       <p>Brazilian multi-instrumentalist/singer, composer <strong>Carlos Cardozo</strong> delivers a strong
         overview <b>on Brazilian Samba, Bossa Nova, Forró, Funk adding jazz and folkloric
-        fundamentals</b> with a hint of Brazilian northeastern rhythms.</p>
+          fundamentals</b> with a hint of Brazilian northeastern rhythms.</p>
 
       <p>Cardozo's highly fine and assured vocals glows with his expressive compositions
         and the rich arrangements added by collaborators, producers André Valério and
         Sammy Barros.</p>
 
       <p>Also an exceptional cavaquinho player, Cardozo has changed the scene of <strong>Brazilian
-        Samba music in Canada</strong> through a diverse amount of projects, featuring his abilities
+          Samba music in Canada</strong> through a diverse amount of projects, featuring his abilities
         and skillfulness as bandleader and instrumentalist.
       </p>
     </div>
@@ -25,7 +25,46 @@
     </div>
   </section>
   <section class="gallery">
-    
+    <div class="album">
+      <h2>Album</h2>
+      <h1>My World</h1>
+      <div class="player-wrapper">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/capa-album.jpg" alt="album" class="album">
+        <div class="player"></div>
+      </div>
+    </div>
+    <div class="gallery">
+      <h2>Explore</h2>
+      <h1>Photo Gallery</h1>
+      <div class="gallery-repeater">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
+      </div>
+      <div class="btn-wrapper">
+        <button class="full-album">FULL ALBUM</button></div>
+    </div>
+  </section>
+  <section class="yt-videos">
+      <div class="yt-content">
+        <div class="yt-title">
+          <h2>Album</h2>
+          <h1>My World</h1>
+        </div>
+        <div class="yt-repeater">
+        </div>
+      </div>
+  </section>
+  <section class="social">
+    <ul class="social-content">
+      <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-spotify.png" alt="item-social" class="item-social"></a></li>
+      <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-yt.png" alt="item-social" class="item-social"></a></li>
+      <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-insta.png" alt="item-social" class="item-social"></a></li>
+      <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-fb.png" alt="item-social" class="item-social"></a></li>
+    </ul>
   </section>
 </main>
 

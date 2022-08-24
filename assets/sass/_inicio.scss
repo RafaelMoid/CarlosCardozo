@@ -17,11 +17,11 @@ main.inicio {
 
       p {
         color: $cinza3;
-        font-size: 1.15rem;
+        font-size: 1.4vw;
         margin: 0 0 2rem 3rem;
         text-align: justify;
         text-justify: inter-word;
-        line-height: 1.5rem;
+        line-height: 1.8vw;
 
         strong {
           font-weight: bold;
@@ -51,6 +51,149 @@ main.inicio {
   }
 
   section.gallery {
-    
+    background-color: $cinza2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+    div.album {
+      width: 40%;
+      margin: 6rem auto;
+
+      h2 {
+        font-size: 1.4vw;
+        color: $cinza3;
+        margin: 0 0 0.5rem 0;
+        font-weight: bold;
+      }
+
+      h1 {
+        font-size: 2vw;
+        color: $vermelho;
+        margin: 0 0 2rem 0;
+        font-weight: bold;
+      }
+
+      div.player-wrapper {
+        img {
+          width: 30%;
+        }
+      }
+    }
+
+    div.gallery {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 6rem auto;
+      width: 40%;
+
+      h2 {
+        font-size: 1.4vw;
+        color: $cinza3;
+        margin: 0 0 0.5rem 0;
+        font-weight: bold;
+      }
+
+      h1 {
+        font-size: 2vw;
+        color: $vermelho;
+        margin: 0 0 2rem 0;
+        font-weight: bold;
+      }
+
+      div.gallery-repeater {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        img {
+          width: 32%;
+          margin: 2px;
+        }
+      }
+    }
+
+    div.btn-wrapper {
+      display: flex;
+      justify-content: center;
+
+      button.full-album {
+        position: absolute;
+        padding: 1rem;
+        width: 15%;
+        font-weight: bold;
+        font-size: 0.9vw;
+        background-color: transparent;
+        color: $cinza3;
+        border: $cinza3 solid;
+        border-radius: 36px;
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  section.yt-videos {
+    background-color: $cinza3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+    div.yt-content {
+      display: flex;
+      width: 90%;
+
+      div.yt-title {
+        display: flex;
+        flex-direction: column;
+        margin: 6rem 0 0 2rem;
+
+        h2 {
+          font-size: 1.4vw;
+          color: $branco;
+          margin: 0 0 0.5rem 0;
+          font-weight: bold;
+        }
+
+        h1 {
+          font-size: 2vw;
+          color: $vermelho;
+          margin: 0 0 2rem 0;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  section.social {
+    width: 100%;
+    background-color: $cinza4;
+    display: flex;
+    justify-content: space-between;
+
+    ul.social-content {
+      width: 80%;
+      margin: 2rem auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+
+      a {
+        li {
+          display: flex;
+          justify-content: space-between;
+        }
+
+      }
+
+      a:hover {
+        opacity: 0.7;
+      }
+    }
   }
 }
