@@ -212,6 +212,7 @@ main.inicio {
       position: relative;
 
       img {
+        height: 100%;
         width: 100%;
       }
 
@@ -287,10 +288,115 @@ main.inicio {
               font-size: 1vw;
               padding: 1rem 2.5rem;
               font-weight: bold;
+          
             }
           }
 
         }
+      }
+    }
+  }
+
+  section.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4rem 0;
+    background-color: $cinza3;
+    div.text-contact{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      h1 {
+        font-size: 2rem;
+        color:$branco;
+        font-weight: bold;
+      }
+
+      h1:nth-child(2) {
+        font-size: 2rem;
+        color: $vermelho;
+      }
+
+      h4 {
+        margin-top: 3rem;
+        color:$branco;
+        font-style: italic;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+      }
+
+      p {
+        color:$branco;
+        font-style: italic;
+        font-size: 1rem;
+        line-height: 1.4rem;
+      }
+
+      h5 {
+        margin-top: 1.5rem;
+        color:$vermelho;
+        font-weight: bold;
+      }
+
+    }
+
+    div.form-wrapper {
+      width: 30%;
+      h3 {
+        color: $branco;
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      form.contact {
+        width: 100%;
+        input {
+          margin: 0.3rem 0;
+          padding: 0.8rem;
+          width: 100%;
+          color: $cinza2;
+          background-color:$cinza4 ;
+          border-radius: 8px;
+          border: 0;
+          font-size: 1rem;
+          font-style: italic;
+          font-family: 'Baloo';
+          font-weight: bold;
+        }
+
+        textarea {
+          margin: 0.3rem 0;
+          padding: 0.8rem;
+          width: 100%;
+          color: $cinza2;
+          background-color:$cinza4 ;
+          border-radius: 8px;
+          border: 0;
+          resize: none;
+          font-size: 1rem;
+          font-style: italic;
+          font-family: 'Baloo';
+          font-weight: bold;
+        }
+
+        input[type="submit"] {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 64px;
+          padding: 1rem;
+          width: 40%;
+          font-size: 0.8rem;
+          background-color: $branco;
+          color: black;
+          font-family: 'Baloo';
+          font-weight: bold;
+        }
+
+
       }
     }
   }

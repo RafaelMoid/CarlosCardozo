@@ -1,0 +1,114 @@
+/** Arquivo de customização para o form de contato **/
+.mg-cf7-form .mg-cf7-form-item {
+  margin-bottom: 2em;
+}
+.mg-cf7-form .mg-cf7-form-item label {
+  display: inline-block;
+  padding-bottom: 0.3em;
+  font-size: 1.2em;
+}
+/** Estilizando os inputs GERAIS do form **/
+.mg-cf7-form .mg-cf7-form-item .mg-cf7-form-item-input-padrao {
+  width: 100%;
+  height: 45px;
+  margin-top: .7em;
+  border-radius: 10px;
+  border-color: 1px solid #ccc;
+  background: #f8f8f8;
+  color: #000;
+  font-size: 1em;
+}
+/** Estilizando placeholder dos inputs padrões**/
+.mg-cf7-form .mg-cf7-form-item .mg-cf7-form-item-input-padrao::placeholder {
+  color: #c5c5c5;
+}
+/**Estilos para os inputs padrões quando o usuário estiver digitando **/
+.mg-cf7-form .mg-cf7-form-item .mg-cf7-form-item-input-padrao:focus,
+.mg-cf7-form .mg-cf7-form-item .mg-cf7-form-item-input-padrao:active {
+  border: 1px solid #000;
+  transition: .3s;
+}
+/** Estilizando um campo inválido**/
+.mg-cf7-form .mg-cf7-form-item .mg-cf7-form-item-input-padrao.wpcf7-not-valid {
+  border: 1px solid #ff0000;
+}
+/** Estilizando os inputs do tipo RADIO **/
+.mg-cf7-form .mg-cf7-form-item .mg-cf7-form-item-input-radio .wpcf7-list-item input {
+  height: 20px;
+  width: 20px;
+}
+/** Estilizando os inputs do tipo CHECKBOX **/
+.mg-cf7-form .mg-cf7-form-item .mg-cf7-form-item-input-checkbox {
+  height: 20px;
+  width: 20px;
+}
+.mg-cf7-form .mg-cf7-form-item .mg-cf7-form-item-input-checkbox .wpcf7-list-item input {
+  height: 20px;
+  width: 20px;
+}
+/** Estilizando o campo de FREE TEXT**/
+.mg-cf7-form .mg-cf7-form-item .mg-cf7-form-item-input-checkbox input.wpcf7-free-text {
+  width: auto;
+  height: 45px;
+  border-radius: 10px;
+}
+/** Estilizando os inputs do tipo TEXTAREA **/
+.mg-cf7-form .mg-cf7-form-item .mg-cf7-form-item-input-textarea {
+  height: 180px !important;
+}
+/** Estilizando os Inputs do tipo FILE [ARQUIVO] **/
+.mg-cf7-form .mg-cf7-form-item .mg-cf7-form-item-input-padrao.wpcf7-file {
+  padding: 1em;
+  background: #dedede;
+}
+/** Estilizando Botão de Enviar **/
+.mg-cf7-form .mg-cf7-form-item .wpcf7-form-control.wpcf7-submit {
+  float: right;
+  height: 50px;
+  padding: 1em 3em;
+  background: #ddd;
+  border: 1px solid #c4c4c4;
+  font-size: 1.2em;
+  transition: .3s;
+}
+/** Estilizando Hover e Active do Botão de Enviar **/
+.mg-cf7-form .mg-cf7-form-item .wpcf7-form-control.wpcf7-submit:hover {
+  background: #f45762;
+  color: #fff;
+  border: 1px solid #000;
+}
+/** Estilizando o Loader **/
+.mg-cf7-form .mg-cf7-form-item .ajax-loader {
+  float: right;
+  margin-right: 2em;
+  margin-top: 1.4em;
+}
+/** Estilizando texto de validação dos campos **/
+.mg-cf7-form .mg-cf7-form-item .wpcf7-not-valid-tip {
+  font-size: 0.8em;
+  padding: 0.6em;
+  background: #ffecec;
+}
+/** ==========================================================
+** Estilizando as mensagens de retorno ao enviar formulário 
+========================================================== **/
+/* Estilos padrões do bloco de mensagem */
+.wpcf7 .wpcf7-response-output {
+  padding: 2em 1em;
+  font-size: 1.2em;
+  border-radius: 10px;
+}
+/** Mensagem de campos Inválidos **/
+.wpcf7 .wpcf7-response-output.wpcf7-validation-errors {
+  background: #feffab;
+}
+/** Mensagem de Erro ao enviar formulário **/
+.wpcf7 .wpcf7-response-output.wpcf7-mail-sent-ng  {
+  background: #ffecec;
+  color: #ff0000;
+}
+/** Mensagem de Sucesso ao enviar formulário **/
+.wpcf7 .wpcf7-response-output.wpcf7-mail-sent-ok {
+  background: #c6ffcd;
+  color: #000;
+}

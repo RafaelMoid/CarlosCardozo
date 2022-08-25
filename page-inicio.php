@@ -70,10 +70,10 @@
   <section class="events">
     <div class="foto-events">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/foto-agenda.jpg" alt="events photo" class="ft-events">
-        <div class="text-foto">
-          <p>WHAT'S TODAY'S</p>
-          <p>EVENT?</p>
-        </div>
+      <div class="text-foto">
+        <p>WHAT'S TODAY'S</p>
+        <p>EVENT?</p>
+      </div>
     </div>
     <div class="events-list">
       <div class="wrapper-wrapper-events">
@@ -95,6 +95,30 @@
         </div>
       </div>
     </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="text-contact">
+      <h1>CONTACTS FOR</h1>
+      <h1>EVENTS AND SHOWS</h1>
+      <h4>Mr. Carlinhos Cardozo</h4>
+      <p>
+        RUE BEAUDRY QC H3Z 2Y7 </br>
+        MONTREAL - CANADA </br>
+        +14 303 44455 608
+      </p>
+      <h5>contact@carloscardozo.ca</h5>
+      <h5>@carlinhoscardozo</h5>
+    </div>
+    <div class="form-wrapper">
+      <h3>Send your message below</h3>
+      <form action="" class="contact">
+        <input type="text" placeholder="your name here"></br>
+        <input type="text" placeholder="your email here"></br>
+        <textarea name="message" rows="5" cols="30" placeholder="your message">
+</textarea>
+        <input type="submit" value="SEND MESSAGE">
+      </form>
     </div>
   </section>
 </main>

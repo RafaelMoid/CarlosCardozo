@@ -4,6 +4,13 @@
 add_theme_support('menus');
 add_theme_support ( 'post-thumbnails' );
 
+//Função para carregar o CSS fo Form
+function mago_cf7_enqueue_files() {
+  //Arquivos CSS
+  wp_enqueue_style ( 'CSS-Form', get_template_directory_uri() . 'assets/css/contact-form.css');
+}
+add_action('wp_enqueue_scripts', 'mago_cf7_enqueue_files');
+
 // Custom Post Type
 
 // function custom_post_type_equipe() {
