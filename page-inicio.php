@@ -45,18 +45,19 @@
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
       </div>
       <div class="btn-wrapper">
-        <button class="full-album">FULL ALBUM</button></div>
+        <button class="full-album">FULL ALBUM</button>
+      </div>
     </div>
   </section>
   <section class="yt-videos">
-      <div class="yt-content">
-        <div class="yt-title">
-          <h2>Album</h2>
-          <h1>My World</h1>
-        </div>
-        <div class="yt-repeater">
-        </div>
+    <div class="yt-content">
+      <div class="yt-title">
+        <h2>Album</h2>
+        <h1>My World</h1>
       </div>
+      <div class="yt-repeater">
+      </div>
+    </div>
   </section>
   <section class="social">
     <ul class="social-content">
@@ -65,6 +66,36 @@
       <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-insta.png" alt="item-social" class="item-social"></a></li>
       <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-fb.png" alt="item-social" class="item-social"></a></li>
     </ul>
+  </section>
+  <section class="events">
+    <div class="foto-events">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/foto-agenda.jpg" alt="events photo" class="ft-events">
+        <div class="text-foto">
+          <p>WHAT'S TODAY'S</p>
+          <p>EVENT?</p>
+        </div>
+    </div>
+    <div class="events-list">
+      <div class="wrapper-wrapper-events">
+        <h3>Check out my concert schedule</br> and have fun!</h3>
+        <div class="event-repeater">
+          <ul class="event-content-wrapper">
+            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
+            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
+            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
+            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
+            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
+            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
+            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
+            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
+          </ul>
+          <div class="btn-wrapper">
+            <button class="full-events">PAST EVENTS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
   </section>
 </main>
 

@@ -187,6 +187,11 @@ main.inicio {
         li {
           display: flex;
           justify-content: space-between;
+
+          img {
+            max-width: 10rem;
+          }
+
         }
 
       }
@@ -195,5 +200,145 @@ main.inicio {
         opacity: 0.7;
       }
     }
+  }
+
+  section.events {
+    display: flex;
+    flex-direction: row;
+    background-color: $vermelho;
+
+    div.foto-events {
+      width: 50%;
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+
+      div.text-foto {
+        margin: 0;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 40%;
+        right: 0;
+
+        p {
+          font-weight: bold;
+          font-size: 2.5rem;
+          padding: 0.5rem;
+        }
+
+        p:nth-child(1) {
+          width: 21.5rem;
+          background-color: $vermelho;
+          color: $branco;
+        }
+      }
+
+
+      p:nth-child(2) {
+        width: 10rem;
+        background-color: $branco;
+        color: $vermelho;
+        margin-left: 11.5rem;
+      }
+    }
+
+    div.events-list {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2rem;
+
+      div.wrapper-wrapper-events {
+        h3 {
+          margin-bottom: 2rem;
+          display: flex;
+          align-items: left;
+          font-size: 2vw;
+          color: $branco;
+        }
+
+        div.event-repeater {
+
+          ul.event-content-wrapper {
+
+            li {
+              width: 100%;
+              font-size: 1rem;
+              color: $branco;
+              margin: 4px 0;
+              padding: 1vw 2rem 1vw 0;
+              border-top: 1px $branco solid;
+            }
+
+            li:last-child {
+              border-bottom: 1px $branco solid;
+            }
+          }
+
+          div.btn-wrapper {
+            margin-top: 3rem;
+
+            button.full-events {
+              border: 0;
+              border-radius: 128px;
+              font-size: 1vw;
+              padding: 1rem 2.5rem;
+              font-weight: bold;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+  @media screen and (max-width:1300px) {
+
+
+    section.social {
+      ul.social-content {
+        li {
+          a {
+            img {
+              max-width: 10rem;
+            }
+          }
+        }
+      }
+    }
+
+    section.events {
+      div.foto-events {
+        width: 50%;
+
+        img {
+          width: 100%
+        }
+      }
+
+      div.events-list {
+        div.wrapper-wrapper-events {
+          div.event-repeater {
+            ul.event-content-wrapper {
+              li {
+                padding: 0.5rem 2rem 0.5rem 0;
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+
   }
 }
