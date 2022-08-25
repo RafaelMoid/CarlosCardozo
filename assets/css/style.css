@@ -710,4 +710,88 @@ main.inicio section.contact div.form-wrapper form.contact input[type="submit"] {
   }
 }
 
+@font-face {
+  font-family: 'Baloo';
+  src: url("BalooBhaijaan2-Bold.ttf") format(truetype), url("BalooBhaijaan2-ExtraBold.ttf") format(truetype), url("BalooBhaijaan2-Medium.ttf") format(truetype), url("BalooBhaijaan2-Regular.ttf") format(truetype) url("BalooBhaijaan2-SemiBold.ttf") format(truetype), url("BalooBhaijaan2-VariableFont_wght.ttf") format(truetype);
+}
+
+/* line 26, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+a, p, h1, h2, h3, h4, h5, h6, li, input, select, textarea, span {
+  font-family: 'Baloo', sans-serif;
+}
+
+/* line 30, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+a, p, h5, h6, li, span {
+  font-size: 1rem;
+}
+
+/* line 34, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+h1 {
+  font-size: 3rem;
+}
+
+/* line 38, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+h2 {
+  font-size: 2.5rem;
+}
+
+/* line 42, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+h3 {
+  font-size: 2rem;
+}
+
+/* line 46, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+h4 {
+  font-size: 1.5rem;
+}
+
+/* line 50, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_designSystem.scss */
+.btn-hover:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+/* line 3, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 4rem;
+  background-color: #4a4a4a;
+}
+
+/* line 10, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+.footer div.footer-section {
+  background-color: #4a4a4a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+/* line 18, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+.footer div.footer-section div.logo-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 20rem;
+  background-color: #4a4a4a;
+}
+
+/* line 27, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+.footer div.footer-section div.logo-box p {
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  color: #e8e8e8;
+}
+
+/* line 36, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+.footer div.footer-section div.logo-box a img {
+  height: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

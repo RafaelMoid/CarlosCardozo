@@ -1,0 +1,42 @@
+@import "designSystem";
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 4rem;
+  background-color: $cinza4;
+
+  div.footer-section {
+    background-color: $cinza4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2rem;
+
+    div.logo-box {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      width: 20rem;
+      background-color: $cinza4;
+
+
+      p {
+        font-size: 0.8rem;
+        font-style: italic;
+        font-weight: bold;
+        margin-right: 0.5rem;
+        color: $cinza2;
+      }
+
+      a {
+        img {
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+}
