@@ -61,10 +61,10 @@
   </section>
   <section class="social">
     <ul class="social-content">
-      <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-spotify.png" alt="item-social" class="item-social"></a></li>
-      <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-yt.png" alt="item-social" class="item-social"></a></li>
-      <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-insta.png" alt="item-social" class="item-social"></a></li>
-      <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-fb.png" alt="item-social" class="item-social"></a></li>
+      <li><a href="https://open.spotify.com/artist/52r4eeaNInzfaAKiXcL3kc?si=ciVhpO9KSRO-Az3ywRf8tg&nd=1#login" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-spotify.png" alt="item-social" class="item-social"></a></li>
+      <li><a href="https://www.youtube.com/c/CarlosCardozoMusic" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-yt.png" alt="item-social" class="item-social"></a></li>
+      <li><a href="https://www.instagram.com/carloscardozomusic/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-insta.png" alt="item-social" class="item-social"></a></li>
+      <li><a href="https://www.facebook.com/carlos.cardozo.33" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-fb.png" alt="item-social" class="item-social"></a></li>
     </ul>
   </section>
   <section class="events">

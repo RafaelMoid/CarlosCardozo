@@ -36,10 +36,9 @@
 				<button class="btn-header-2">DISCOVER MY HISTORY</button>
 			</div>
 			<ul class="social">
-				<li><a href="#" class="fa fa-instagram"></a></li>
-				<li><a href="#" class="fa fa-facebook"></a></li>
-				<li><a href="#" class="fa fa-linkedin"></a></li>
-				<li><a href="#" class="fa fa-whatsapp"></a></li>
+				<li><a href="https://www.instagram.com/carloscardozomusic/" class="fa fa-instagram" target="_blank"></a></li>
+				<li><a href="https://www.facebook.com/carlos.cardozo.33" class="fa fa-facebook" target="_blank"></a></li>
+				<li><a href="https://wa.me/16476282792" class="fa fa-whatsapp" target="_blank"></a></li>
 			</ul>
 		</div>
 

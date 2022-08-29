@@ -119,6 +119,7 @@ main.inicio {
     div.btn-wrapper {
       display: flex;
       justify-content: center;
+      margin-top: 2rem;
 
       button.full-album {
         position: absolute;
@@ -130,7 +131,6 @@ main.inicio {
         color: $cinza3;
         border: $cinza3 solid;
         border-radius: 36px;
-        margin-top: 2rem;
       }
     }
   }
@@ -409,6 +409,7 @@ main.inicio {
 
   @media screen and (max-width:1300px) {
 
+    section.main
 
     section.social {
       ul.social-content {
@@ -423,13 +424,6 @@ main.inicio {
     }
 
     section.events {
-      div.foto-events {
-        width: 50%;
-
-        img {
-          width: 100%
-        }
-      }
 
       div.events-list {
         div.wrapper-wrapper-events {

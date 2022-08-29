@@ -213,7 +213,7 @@ header.header div.header-txt ul.social {
   flex-direction: column;
   text-decoration: none;
   position: absolute;
-  top: 24rem;
+  top: 29rem;
   right: 1.5rem;
   height: 8rem;
 }
@@ -231,7 +231,7 @@ header.header div.header-txt ul.social li a {
 }
 
 /* line 114, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
-header.header div.header-txt ul.social li:nth-child(4n) {
+header.header div.header-txt ul.social li:nth-child(3n) {
   border-radius: 100%;
   background-color: black;
 }
@@ -385,9 +385,10 @@ main.inicio section.gallery div.gallery div.gallery-repeater img {
 main.inicio section.gallery div.btn-wrapper {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
-/* line 123, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+/* line 124, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
 main.inicio section.gallery div.btn-wrapper button.full-album {
   position: absolute;
   padding: 1rem;
@@ -398,7 +399,6 @@ main.inicio section.gallery div.btn-wrapper button.full-album {
   color: #626262;
   border: #626262 solid;
   border-radius: 36px;
-  margin-top: 2rem;
 }
 
 /* line 138, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
@@ -695,15 +695,7 @@ main.inicio section.contact div.form-wrapper form.contact input[type="submit"] {
   main.inicio section.social ul.social-content li a img {
     max-width: 10rem;
   }
-  /* line 426, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
-  main.inicio section.events div.foto-events {
-    width: 50%;
-  }
-  /* line 429, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
-  main.inicio section.events div.foto-events img {
-    width: 100%;
-  }
-  /* line 438, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
+  /* line 431, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_inicio.scss */
   main.inicio section.events div.events-list div.wrapper-wrapper-events div.event-repeater ul.event-content-wrapper li {
     padding: 0.5rem 2rem 0.5rem 0;
     font-size: 1rem;

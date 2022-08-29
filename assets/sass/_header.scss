@@ -98,7 +98,7 @@ header.header {
       flex-direction: column;
       text-decoration: none;
       position: absolute;
-      top: 24rem;
+      top: 29rem;
       right: 1.5rem;
       height: 8rem;
       
@@ -111,7 +111,7 @@ header.header {
         }
         }
 
-        li:nth-child(4n) {
+        li:nth-child(3n) {
           border-radius: 100%;
           background-color: black;
         
