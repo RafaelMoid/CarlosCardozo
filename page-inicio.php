@@ -30,19 +30,19 @@
       <h1>My World</h1>
       <div class="player-wrapper">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/capa-album.jpg" alt="album" class="album">
-        <div class="player"></div>
+        <div class="player">
+          <?php echo do_shortcode('[sonaar_audioplayer playlist_type="predefined" albums="24" artwork_id="" player_layout="skin_float_tracklist" hide_progressbar="default" display_control_artwork="true" hide_artwork="true" show_playlist="true" show_track_market="false" show_album_market="false" hide_timeline="true"][/sonaar_audioplayer]'); ?>
+        </div>
       </div>
     </div>
     <div class="gallery">
       <h2>Explore</h2>
       <h1>Photo Gallery</h1>
       <div class="gallery-repeater">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/exemplo-galeria.jpg" alt="item-gallery" class="item-gallery">
+        <?php if (have_rows('galeria')) : while (have_rows('galeria')) : the_row(); ?>
+            <img src="<?php the_sub_field('foto'); ?>" alt="item-gallery" class="item-gallery">
+        <?php endwhile;
+        else : endif; ?>
       </div>
       <div class="btn-wrapper">
         <button class="full-album">FULL ALBUM</button>
@@ -52,10 +52,17 @@
   <section class="yt-videos">
     <div class="yt-content">
       <div class="yt-title">
-        <h2>Album</h2>
-        <h1>My World</h1>
+        <h2>YouTube</h2>
+        <h1>My videos</h1>
       </div>
       <div class="yt-repeater">
+          <?php if (have_rows('destaque_youtube')) : while (have_rows('destaque_youtube')) : the_row(); ?>
+              <div class="repeater-iteration">
+                <iframe src="<?php the_sub_field('video_do_youtube'); ?>" width="400" height="300"></iframe>
+                <h3><?php the_sub_field('titulo'); ?></h3>
+              </div>
+          <?php endwhile;
+          else : endif; ?>
       </div>
     </div>
   </section>

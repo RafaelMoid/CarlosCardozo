@@ -77,8 +77,56 @@ main.inicio {
       }
 
       div.player-wrapper {
+        display: flex;
+        flex-direction: row;
+
         img {
           width: 30%;
+          height: 30%;
+          margin-right: 1rem;
+        }
+
+        .player {
+          width: 60%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          position: relative;
+
+          h3 {
+            display: none;
+          }
+
+
+          div.srp_tracklist {
+            background-color: $branco;
+            padding: 1rem;
+            margin: 0;
+
+            //É NECESSARIO AJUSTAR ISSO NAS TELAS MENORES
+            ul {
+              li {
+                a {
+                  font-weight: bold;
+
+                  span {
+                    color: $vermelho;
+                  }
+
+                  div {
+                    color: $vermelho;
+                  }
+
+                  span {
+                    color: $vermelho;
+                  }
+                }
+              }
+            }
+          }
+
+
+
         }
       }
     }
@@ -145,6 +193,7 @@ main.inicio {
 
     div.yt-content {
       display: flex;
+      flex-direction: column;
       width: 90%;
 
       div.yt-title {
@@ -164,6 +213,27 @@ main.inicio {
           color: $vermelho;
           margin: 0 0 2rem 0;
           font-weight: bold;
+        }
+      }
+
+      div.yt-repeater {
+        display: flex;
+        justify-content: space-around;
+
+        div.repeater-iteration {
+          width: 45%;
+          display: flex;
+          flex-direction: column;
+
+          iframe {
+            width: 100%;
+            margin-bottom: 1.5rem;
+          }
+          h3 {
+            color:$branco;
+            font-size: 1.5rem;
+            margin-bottom: 6rem;
+          }
         }
       }
     }
@@ -224,13 +294,14 @@ main.inicio {
         right: 0;
 
         p {
+          right: 0;
           font-weight: bold;
           font-size: 2.5rem;
           padding: 0.5rem;
         }
 
         p:nth-child(1) {
-          width: 21.5rem;
+          width: 20.5rem;
           background-color: $vermelho;
           color: $branco;
         }
@@ -241,7 +312,7 @@ main.inicio {
         width: 10rem;
         background-color: $branco;
         color: $vermelho;
-        margin-left: 11.5rem;
+        margin-left: 10.5rem;
       }
     }
 
@@ -288,7 +359,7 @@ main.inicio {
               font-size: 1vw;
               padding: 1rem 2.5rem;
               font-weight: bold;
-          
+
             }
           }
 
@@ -303,14 +374,16 @@ main.inicio {
     justify-content: space-around;
     padding: 4rem 0;
     background-color: $cinza3;
-    div.text-contact{
+
+    div.text-contact {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       flex-wrap: wrap;
+
       h1 {
         font-size: 2rem;
-        color:$branco;
+        color: $branco;
         font-weight: bold;
       }
 
@@ -321,14 +394,14 @@ main.inicio {
 
       h4 {
         margin-top: 3rem;
-        color:$branco;
+        color: $branco;
         font-style: italic;
         font-size: 1.2rem;
         line-height: 1.4rem;
       }
 
       p {
-        color:$branco;
+        color: $branco;
         font-style: italic;
         font-size: 1rem;
         line-height: 1.4rem;
@@ -336,7 +409,7 @@ main.inicio {
 
       h5 {
         margin-top: 1.5rem;
-        color:$vermelho;
+        color: $vermelho;
         font-weight: bold;
       }
 
@@ -344,6 +417,7 @@ main.inicio {
 
     div.form-wrapper {
       width: 30%;
+
       h3 {
         color: $branco;
         font-size: 1rem;
@@ -351,19 +425,20 @@ main.inicio {
         font-weight: bold;
         margin-bottom: 1rem;
       }
+
       form.contact {
         width: 100%;
+
         input {
           margin: 0.3rem 0;
           padding: 0.8rem;
           width: 100%;
           color: $cinza2;
-          background-color:$cinza4 ;
+          background-color: $cinza4;
           border-radius: 8px;
           border: 0;
           font-size: 1rem;
           font-style: italic;
-          font-family: 'Baloo';
           font-weight: bold;
         }
 
@@ -372,13 +447,12 @@ main.inicio {
           padding: 0.8rem;
           width: 100%;
           color: $cinza2;
-          background-color:$cinza4 ;
+          background-color: $cinza4;
           border-radius: 8px;
           border: 0;
           resize: none;
           font-size: 1rem;
           font-style: italic;
-          font-family: 'Baloo';
           font-weight: bold;
         }
 
@@ -392,7 +466,6 @@ main.inicio {
           font-size: 0.8rem;
           background-color: $branco;
           color: black;
-          font-family: 'Baloo';
           font-weight: bold;
         }
 
@@ -409,9 +482,7 @@ main.inicio {
 
   @media screen and (max-width:1300px) {
 
-    section.main
-
-    section.social {
+    section.main section.social {
       ul.social-content {
         li {
           a {

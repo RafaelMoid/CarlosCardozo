@@ -8,6 +8,8 @@ $cinza4: #4a4a4a;
 $salmao: #ee5754;
 $branco: #ffffff;
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
 @font-face {
     font-family: 'Baloo';
     src: 
@@ -23,8 +25,8 @@ $branco: #ffffff;
 
 
 //Fonts Config
-a, p, h1, h2, h3, h4, h5, h6, li,  input, select, textarea, span{
-   font-family: 'Baloo', sans-serif;
+a, p, h1, h2, h3, h4, h5, h6, li,  input, select, textarea, span, button, input{
+    font-family: 'Baloo 2', cursive;
 }
 
 a, p, h5, h6, li , span{
@@ -47,7 +49,7 @@ h4 {
     font-size: 1.5rem;
 }
 
-.btn-hover:hover {
+button:hover {
     opacity: 0.9;
     cursor: pointer;
 }
