@@ -87,14 +87,11 @@
         <h3>Check out my concert schedule</br> and have fun!</h3>
         <div class="event-repeater">
           <ul class="event-content-wrapper">
-            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
-            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
-            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
-            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
-            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
-            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
-            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
-            <li class="event-content">Dia 25 / Nome do Evento / Local do Evento / 18h30</li>
+          <?php if (have_rows('eventos')) : while (have_rows('eventos')) : the_row(); ?>
+              <div class="repeater-iteration">
+                <li><?php the_sub_field('evento'); ?></li>
+          <?php endwhile;
+          else : endif; ?>
           </ul>
           <div class="btn-wrapper">
             <button class="full-events">PAST EVENTS</button>

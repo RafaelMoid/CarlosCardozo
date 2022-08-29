@@ -93,7 +93,8 @@ header.header {
         font-size: 1.2vw;
       }
     }
-    ul.social{
+
+    ul.social {
       display: flex;
       flex-direction: column;
       text-decoration: none;
@@ -101,20 +102,21 @@ header.header {
       top: 29rem;
       right: 1.5rem;
       height: 8rem;
-      
-      li{
+
+      li {
         padding: 8px 10px;
-        a{
+
+        a {
           font-size: 1.5rem;
           text-decoration: none;
           color: $branco;
         }
-        }
+      }
 
-        li:nth-child(3n) {
-          border-radius: 100%;
-          background-color: black;
-        
+      li:nth-child(3n) {
+        border-radius: 100%;
+        background-color: black;
+
       }
     }
   }
@@ -133,6 +135,20 @@ header.header {
         width: 40%;
         object-fit: cover;
         object-position: 0%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1700px) {
+  header.header {
+    div.header-txt {
+      h1 {
+        line-height: 4rem;
+      }
+
+      p {
+        line-height: 3rem;
       }
     }
   }

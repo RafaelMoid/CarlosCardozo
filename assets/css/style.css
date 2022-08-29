@@ -209,7 +209,7 @@ header.header div.header-txt .btn-wrapper .btn-header-2 {
   font-size: 1.2vw;
 }
 
-/* line 96, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+/* line 97, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
 header.header div.header-txt ul.social {
   display: flex;
   flex-direction: column;
@@ -220,34 +220,45 @@ header.header div.header-txt ul.social {
   height: 8rem;
 }
 
-/* line 105, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+/* line 106, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
 header.header div.header-txt ul.social li {
   padding: 8px 10px;
 }
 
-/* line 107, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+/* line 109, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
 header.header div.header-txt ul.social li a {
   font-size: 1.5rem;
   text-decoration: none;
   color: #ffffff;
 }
 
-/* line 114, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+/* line 116, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
 header.header div.header-txt ul.social li:nth-child(3n) {
   border-radius: 100%;
   background-color: black;
 }
 
 @media (max-width: 1000px) {
-  /* line 126, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+  /* line 128, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
   header.header div.header-img img.foto {
     width: 60%;
   }
-  /* line 132, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+  /* line 134, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
   header.header div.header-txt img.bg-header {
     width: 40%;
     object-fit: cover;
     object-position: 0%;
+  }
+}
+
+@media (min-width: 1700px) {
+  /* line 146, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+  header.header div.header-txt h1 {
+    line-height: 4rem;
+  }
+  /* line 150, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_header.scss */
+  header.header div.header-txt p {
+    line-height: 3rem;
   }
 }
 
