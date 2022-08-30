@@ -7,6 +7,77 @@ header.header {
   height: 38rem;
   justify-content: space-between;
 
+  nav.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    z-index: 10;
+
+    ul.nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: $vermelho;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+
+      li.nav-item {
+        list-style: none;
+        margin: 16px 0;
+
+
+
+        a.nav-link {
+          color: white;
+          text-decoration: none;
+          transition: 0.7s ease;
+        }
+
+        .nav-link:hover {
+          color: $vinho;
+        }
+
+      }
+
+      .hamburguer {
+        display: block;
+        cursor: pointer;
+
+        .bar {
+          display: block;
+          width: 25px;
+          height: 3px;
+          margin: 5px auto;
+          -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+          background-color: $branco;
+
+        }
+      }
+
+      .hamburguer.active .bar:nth-child(2) {
+        opacity: 0;
+      }
+
+      .hamburguer.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+
+      .hamburguer.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+    }
+
+    .nav-menu.active {
+      left: 0;
+    }
+  }
+
   div.header-img {
     width: 60%;
     display: flex;
@@ -124,6 +195,9 @@ header.header {
 
 @media (max-width: 1000px) {
   header.header {
+
+
+
     div.header-img {
       img.foto {
         width: 60%;
