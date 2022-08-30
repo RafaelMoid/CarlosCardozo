@@ -39,7 +39,8 @@
       <h2>Explore</h2>
       <h1>Photo Gallery</h1>
       <div class="gallery-repeater">
-        <?php if (have_rows('galeria')) : while (have_rows('galeria')) : the_row(); ?>
+        <?php $counter = 0; ?>
+        <?php if (have_rows('galeria')) : while (have_rows('galeria')) : the_row() ?>
             <img src="<?php the_sub_field('foto'); ?>" alt="item-gallery" class="item-gallery">
         <?php endwhile;
         else : endif; ?>
@@ -56,13 +57,13 @@
         <h1>My videos</h1>
       </div>
       <div class="yt-repeater">
-          <?php if (have_rows('destaque_youtube')) : while (have_rows('destaque_youtube')) : the_row(); ?>
-              <div class="repeater-iteration">
-                <iframe src="<?php the_sub_field('video_do_youtube'); ?>" width="400" height="300"></iframe>
-                <h3><?php the_sub_field('titulo'); ?></h3>
-              </div>
-          <?php endwhile;
-          else : endif; ?>
+        <?php if (have_rows('destaque_youtube')) : while (have_rows('destaque_youtube')) : the_row(); ?>
+            <div class="repeater-iteration">
+              <iframe src="<?php the_sub_field('video_do_youtube'); ?>" width="400" height="300"></iframe>
+              <h3><?php the_sub_field('titulo'); ?></h3>
+            </div>
+        <?php endwhile;
+        else : endif; ?>
       </div>
     </div>
   </section>
@@ -87,11 +88,11 @@
         <h3>Check out my concert schedule</br> and have fun!</h3>
         <div class="event-repeater">
           <ul class="event-content-wrapper">
-          <?php if (have_rows('eventos')) : while (have_rows('eventos')) : the_row(); ?>
-              <div class="repeater-iteration">
-                <li><?php the_sub_field('evento'); ?></li>
-          <?php endwhile;
-          else : endif; ?>
+            <?php if (have_rows('eventos')) : while (have_rows('eventos')) : the_row(); ?>
+                <div class="repeater-iteration">
+                  <li><?php the_sub_field('evento'); ?></li>
+              <?php endwhile;
+            else : endif; ?>
           </ul>
           <div class="btn-wrapper">
             <button class="full-events">PAST EVENTS</button>
@@ -116,13 +117,14 @@
     </div>
     <div class="form-wrapper">
       <h3>Send your message below</h3>
-      <form action="" class="contact">
+      <?php echo do_shortcode('[contact-form-7 id="11" title="Contact Carlos Cardozo"]'); ?>
+      <!-- <form action="mailto:rafael@jazzz.com.br" method="POST" enctype="multipart/form-data" name="EmailForm" class="contact">
         <input type="text" placeholder="your name here"></br>
         <input type="text" placeholder="your email here"></br>
         <textarea name="message" rows="5" cols="30" placeholder="your message">
 </textarea>
         <input type="submit" value="SEND MESSAGE">
-      </form>
+      </form> -->
     </div>
   </section>
 </main>

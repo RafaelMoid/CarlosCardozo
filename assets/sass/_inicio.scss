@@ -160,7 +160,28 @@ main.inicio {
         img {
           width: 32%;
           margin: 2px;
+          display: none;
         }
+
+        img:nth-child(1) {
+          display: flex;
+        }
+        img:nth-child(2) {
+          display: flex;
+        }
+        img:nth-child(3) {
+          display: flex;
+        }
+        img:nth-child(4) {
+          display: flex;
+        }
+        img:nth-child(5) {
+          display: flex;
+        }
+        img:nth-child(6) {
+          display: flex;
+        }
+
       }
     }
 
@@ -229,8 +250,9 @@ main.inicio {
             width: 100%;
             margin-bottom: 1.5rem;
           }
+
           h3 {
-            color:$branco;
+            color: $branco;
             font-size: 1.5rem;
             margin-bottom: 6rem;
           }
@@ -426,6 +448,78 @@ main.inicio {
         margin-bottom: 1rem;
       }
 
+      div.wpcf7 {
+        form.wpcf7-form {
+          width: 90%;
+
+          div.form-wrapper {
+            width: 100%;
+
+            div.row {
+              width: 100%;
+
+              div.container {
+                width: 100%;
+
+                span {
+                  width: 100%;
+
+                  input {
+                    margin: 0.3rem 0;
+                    padding: 0.8rem;
+                    width: 100%;
+                    color: $cinza2;
+                    background-color: $cinza4;
+                    border-radius: 8px;
+                    border: 0;
+                    font-size: 1rem;
+                    font-style: italic;
+                    font-weight: bold;
+
+                  }
+
+                  .wpcf7-textarea {
+                    margin: 0.3rem 0;
+                    padding: 0.8rem;
+                    width: 100%;
+                    height: 10rem;
+                    color: $cinza2;
+                    background-color: $cinza4;
+                    border-radius: 8px;
+                    border: 0;
+                    resize: none;
+                    font-size: 1rem;
+                    font-style: italic;
+                    font-weight: bold;
+
+                  }
+                }
+
+                .wpcf7-submit {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  border-radius: 64px;
+                  padding: 1rem;
+                  width: 40%;
+                  font-size: 0.8rem;
+                  background-color: $branco;
+                  color: black;
+                  font-weight: bold;
+                  border: none;
+
+                }
+                .wpcf7-spinner {
+                  width: 1.5rem;
+                  margin-top: 1rem;
+                }
+                
+              }
+            }
+          }
+        }
+      }
+
       form.contact {
         width: 100%;
 
@@ -513,3 +607,23 @@ main.inicio {
 
   }
 }
+.invalid {
+  .wpcf7-response-output {
+    border-radius: 16px;
+    color: $branco;
+    height: 3rem;
+    font-family: 'Baloo 2', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }}
+.sent {
+  .wpcf7-response-output {
+    border-radius: 16px;
+    color: $branco;
+    height: 3rem;
+    font-family: 'Baloo 2', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }}

@@ -40,3 +40,52 @@
     }
   }
 }
+
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  // display: flex;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #FFFFFF;
+  width: 90vw;
+  height: 90vh;
+  border-radius: 16px;
+
+  .modal-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4vh 2vw 0 3vw;
+    position: relative;
+
+    button {
+      position: absolute;
+      right: 0;
+      top: -5rem;
+    }
+}
+
+  div.gallery-repeater {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2vh;
+    padding: 0 1rem;
+
+    img {
+      width: 19vw;
+    }
+
+  }
+}
