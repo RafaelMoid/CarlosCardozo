@@ -166,18 +166,23 @@ main.inicio {
         img:nth-child(1) {
           display: flex;
         }
+
         img:nth-child(2) {
           display: flex;
         }
+
         img:nth-child(3) {
           display: flex;
         }
+
         img:nth-child(4) {
           display: flex;
         }
+
         img:nth-child(5) {
           display: flex;
         }
+
         img:nth-child(6) {
           display: flex;
         }
@@ -509,11 +514,12 @@ main.inicio {
                   border: none;
 
                 }
+
                 .wpcf7-spinner {
                   width: 1.5rem;
                   margin-top: 1rem;
                 }
-                
+
               }
             }
           }
@@ -607,6 +613,7 @@ main.inicio {
 
   }
 }
+
 .invalid {
   .wpcf7-response-output {
     border-radius: 16px;
@@ -616,7 +623,9 @@ main.inicio {
     display: flex;
     justify-content: center;
     align-items: center;
-  }}
+  }
+}
+
 .sent {
   .wpcf7-response-output {
     border-radius: 16px;
@@ -626,4 +635,222 @@ main.inicio {
     display: flex;
     justify-content: center;
     align-items: center;
-  }}
+  }
+}
+
+@media (max-width: 900px) {
+  main.inicio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    section.main {
+      div.about-us-txt {
+        width: 90%;
+
+        h1.title-about-us {
+          margin: 2rem 0 2rem 3rem;
+          font-weight: bold;
+          color: $branco;
+        }
+
+        p {
+          color: $cinza3;
+          font-size: 4.5vw;
+          margin: 0 0 2rem 3rem;
+          line-height: 5.4vw;
+
+          strong {
+            font-weight: bold;
+            color: $cinza4;
+          }
+
+          b {
+            font-weight: 600;
+            color: $vermelho;
+          }
+        }
+      }
+
+      div.about-us-img {
+        img {
+          //Atenção nessa imagemss
+          display: none;
+        }
+      }
+    }
+  }
+
+  section.gallery {
+    background-color: $cinza2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    div.album {
+      width: 90%;
+      margin: 6rem auto;
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        font-size: 3.4vw;
+        color: $cinza3;
+        margin: 0 0 0.5rem 0;
+        font-weight: bold;
+      }
+
+      h1 {
+        font-size: 4vw;
+        color: $vermelho;
+        margin: 0 0 2rem 0;
+        font-weight: bold;
+      }
+
+      div.player-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 60%;
+          height: 60%;
+          margin-right: 1rem;
+        }
+
+        .player {
+          width: 90%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+
+          h3 {
+            display: none;
+          }
+
+
+          div.srp_tracklist {
+            background-color: $branco;
+            padding: 1rem;
+            margin: 0;
+
+            //É NECESSARIO AJUSTAR ISSO NAS TELAS MENORES
+            ul {
+              li {
+                a {
+                  font-weight: bold;
+
+                  span {
+                    color: $vermelho;
+                  }
+
+                  div {
+                    color: $vermelho;
+                  }
+
+                  span {
+                    color: $vermelho;
+                  }
+                }
+              }
+            }
+          }
+
+
+
+        }
+      }
+    }
+
+    div.gallery {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 6rem auto;
+      width: 90%;
+
+      h2 {
+        font-size: 1.4vw;
+        color: $cinza3;
+        margin: 0 0 0.5rem 0;
+        font-weight: bold;
+      }
+
+      h1 {
+        font-size: 2vw;
+        color: $vermelho;
+        margin: 0 0 2rem 0;
+        font-weight: bold;
+      }
+
+      div.gallery-repeater {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        img {
+          width: 32%;
+          margin: 2px;
+          display: none;
+        }
+
+        img:nth-child(1) {
+          display: flex;
+        }
+
+        img:nth-child(2) {
+          display: flex;
+        }
+
+        img:nth-child(3) {
+          display: flex;
+        }
+
+        img:nth-child(4) {
+          display: flex;
+        }
+
+        img:nth-child(5) {
+          display: flex;
+        }
+
+        img:nth-child(6) {
+          display: flex;
+        }
+
+      }
+    }
+
+    div.btn-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+
+      button.full-album {
+        position: absolute;
+        padding: 1rem;
+        width: 15%;
+        font-weight: bold;
+        font-size: 0.9vw;
+        background-color: transparent;
+        color: $cinza3;
+        border: $cinza3 solid;
+        border-radius: 36px;
+      }
+    }
+  }
+
+
+  section.social {
+    ul {
+      li {
+        a {
+          img {
+            width: 4rem;
+
+          }
+        }
+      }
+    }
+  }
+}
