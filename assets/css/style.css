@@ -1012,20 +1012,23 @@ button:hover {
   top: 0;
   left: 0;
   z-index: 2000;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 58, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+/* line 57, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
 .modal {
   background-color: #FFFFFF;
   width: 90vw;
   height: 90vh;
   border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-/* line 64, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+/* line 66, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
 .modal .modal-header {
   display: flex;
   flex-direction: row;
@@ -1034,26 +1037,66 @@ button:hover {
   position: relative;
 }
 
-/* line 71, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
-.modal .modal-header button {
+/* line 73, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+.modal .modal-header .fechar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  right: 0;
-  top: -5rem;
+  height: 30px;
+  width: 30px;
+  top: -3rem;
+  right: -4rem;
+  border-radius: 50%;
+  background-color: #ee5754;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
-/* line 78, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+/* line 92, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
 .modal div.gallery-repeater {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 2vh;
+  justify-content: flex-start;
+  margin: 2vh;
   padding: 0 1rem;
+  overflow: auto;
 }
 
-/* line 86, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+/* line 101, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
 .modal div.gallery-repeater img {
-  width: 19vw;
+  margin: 2vh;
+  width: 18vw;
+}
+
+/* line 109, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+.modal-container {
+  display: flex;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* line 124, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+.mostrar .modal {
+  animation: modal 0.3s;
+}
+
+/* line 128, ../../Local Sites/carloscardozo/app/public/wp-content/themes/carlosCardozo/assets/sass/_footer.scss */
+.hide {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

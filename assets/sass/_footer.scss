@@ -41,7 +41,7 @@
   }
 }
 
-.modal-container {
+.modal-container{
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -49,8 +49,7 @@
   top: 0;
   left: 0;
   z-index: 2000;
-  // display: flex;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -60,6 +59,9 @@
   width: 90vw;
   height: 90vh;
   border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
   .modal-header{
     display: flex;
@@ -68,10 +70,22 @@
     margin: 4vh 2vw 0 3vw;
     position: relative;
 
-    button {
+    .fechar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       position: absolute;
-      right: 0;
-      top: -5rem;
+      height: 30px;
+      width: 30px;
+      top: -3rem;
+      right: -4rem;
+      border-radius: 50%;
+      background-color: $salmao;
+      color: $branco;
+      font-weight: bold;
+      border: none;
+      font-size: 1rem;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
     }
 }
 
@@ -79,13 +93,38 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 2vh;
+    justify-content: flex-start;
+    margin: 2vh;
     padding: 0 1rem;
+    overflow: auto ;
 
     img {
-      width: 19vw;
+      margin: 2vh;
+      width: 18vw;
     }
 
   }
+}
+
+.modal-container {
+  display: flex;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0 , -60px, 0)
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0 , 0, 0)    
+  }
+}
+
+.mostrar .modal {
+  animation: modal 0.3s;
+}
+
+.hide {
+  display:none;
 }

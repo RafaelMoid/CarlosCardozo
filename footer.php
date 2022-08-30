@@ -14,7 +14,7 @@
 
         
 
-        <div id="modal-gallery" class="modal-container">
+        <div id="modal-gallery" class="modal-container hide">
             <div class="modal">
                 <div class="modal-header">
                     <h3 class="modal-title">Gallery</h3>
