@@ -23,24 +23,6 @@
 
 <body>
 	<header class="header">
-		<nav class="navbar">
-			<ul class="nav-menu">
-				<li class="nav-item">
-					<a href="#" class="nav-link">Home</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">About</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Contact</a>
-				</li>
-			</ul>
-			<div class="hamburguer">
-				<span class="bar"></span>
-				<span class="bar"></span>
-				<span class="bar"></span>
-			</div>
-		</nav>
 		<div class="header-img">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cc-logo.png" alt="logo" class="logo">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cc-foto.png" alt="foto1" class="foto1">
@@ -50,8 +32,8 @@
 			<h1>MÚSICA BRASILEIRA DE ORIGEM E ESTILO</h1>
 			<p>Conheça a trajetória do músico Carlinhos Cardozo and banda.</p>
 			<div class="btn-wrapper">
-				<button class="btn-header-1">DISCOVER NEW ALBUM</button>
-				<button class="btn-header-2">DISCOVER MY HISTORY</button>
+				<a href="#gallery"><button class="btn-header-1">DISCOVER NEW ALBUM</button></a>
+				<a href="#about-us"><button class="btn-header-2">DISCOVER MY HISTORY</button></a>
 			</div>
 			<ul class="social">
 				<li><a href="https://www.instagram.com/carloscardozomusic/" class="fa fa-instagram" target="_blank"></a></li>

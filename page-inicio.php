@@ -4,7 +4,7 @@
 <?php get_header(); ?>
 
 <main class="inicio">
-  <section class="main">
+  <section class="main" id="about-us">
     <div class="about-us-txt">
       <h1 class="title-about-us">ABOUT US</h1>
       <p>Brazilian multi-instrumentalist/singer, composer <strong>Carlos Cardozo</strong> delivers a strong
@@ -24,7 +24,7 @@
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/cc-sec2.png" alt="foto" class="foto">
     </div>
   </section>
-  <section class="gallery">
+  <section class="gallery" id="gallery">
     <div class="album">
       <h2>Album</h2>
       <h1>My World</h1>
